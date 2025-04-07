@@ -16,6 +16,7 @@ dependencies = [
 [tool.poetry]
 packages = [{include = "solemne1", from = "src"}]
 
+package-mode = false
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
