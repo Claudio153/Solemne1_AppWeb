@@ -2,10 +2,6 @@ import sys
 from datetime import datetime
 
 from fastapi.testclient import TestClient
-
-# Agregar `src` al PYTHONPATH en tiempo de ejecución
-sys.path.insert(0, "./src/solemne1")
-
 from main import app  # Ahora importamos directamente desde solemne1
 
 client = TestClient(app)
