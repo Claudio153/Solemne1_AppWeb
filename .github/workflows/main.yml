@@ -31,7 +31,7 @@ jobs:
 
     - name: Run Linting with Ruff
       run: |
-        ruff check src/solemne1 
+        ruff check solemne1/src/solemne1 
 
     - name: Run tests
       working-directory: solemne1/src/solemne1
