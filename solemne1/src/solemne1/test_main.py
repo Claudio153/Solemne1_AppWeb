@@ -1,6 +1,4 @@
-import sys
 from datetime import datetime
-
 from fastapi.testclient import TestClient
 from main import app  # Ahora importamos directamente desde solemne1
 
