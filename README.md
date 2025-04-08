@@ -27,6 +27,7 @@ poetry run uvicorn main:app --reload
 docker pull claudio153/fastapi-app
 docker run -p 8000:8000 claudio153/fastapi-app
 ```
+Luego de esto, acceder a la dirección http://localhost:8000/time en tu navegador.
 Link del docker hub: https://hub.docker.com/r/claudio153/fastapi-app
 
 ## Testing con curl
