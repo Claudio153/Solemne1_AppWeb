@@ -7,7 +7,8 @@ client = TestClient(app)
 
 def test_get_time():
     response = client.get("/time")
-
+    assert response.status_code == 200  # Verifica que el endpoint responde correctamente
+    
     data = response.json()
     assert "current_time" in data  # Verifica que el JSON tiene la clave esperada
 
