@@ -50,8 +50,8 @@ jobs:
 
     - name: Tag Docker image
       run: |
-        docker tag fastapi-app ${{ secrets.DOCKERHUB_USERNAME }}/fastapi-app:latest  # Etiqueta la imagen
+        docker tag solemne1 ${{ secrets.DOCKERHUB_USERNAME }}/solemne1:latest  # Etiqueta la imagen
 
     - name: Push Docker image
       run: |
-        docker push ${{ secrets.DOCKERHUB_USERNAME }}/fastapi-app:latest  # Publica la imagen en Docker Hub
+        docker push ${{ secrets.DOCKERHUB_USERNAME }}/solemne1:latest  # Publica la imagen en Docker Hub
