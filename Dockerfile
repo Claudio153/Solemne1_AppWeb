@@ -14,4 +14,4 @@ RUN poetry install --no-root
 EXPOSE 8000
 
 # Comando para correr la app
-CMD ["poetry", "run", "uvicorn", "src.solemne1.main:app", "--host", "localhost", "--port", "8000"]
+CMD ["poetry", "run", "uvicorn", "src.solemne1.main:app", "--host", "localhost/time", "--port", "8000"]
