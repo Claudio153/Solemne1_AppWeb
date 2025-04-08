@@ -25,7 +25,7 @@ poetry run uvicorn main:app --reload
 ## Usando Docker
 ```bash
 docker pull claudio153/fastapi-app
-docker run -d -p 8000:8000 claudio153/fastapi-app
+docker run -p 8000:8000 claudio153/fastapi-app
 ```
 Link del docker hub: https://hub.docker.com/r/claudio153/fastapi-app
 
