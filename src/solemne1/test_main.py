@@ -1,6 +1,6 @@
 from datetime import datetime
 from fastapi.testclient import TestClient
-from main import app  # Ahora importamos directamente desde solemne1
+from solemne1.main import app  # Ahora importamos directamente desde solemne1
 
 client = TestClient(app)
 
