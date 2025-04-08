@@ -24,10 +24,12 @@ poetry run uvicorn main:app --reload
 
 ## Usando Docker
 ```bash
+docker pull claudio153/fastapi-app
 docker run claudio153/fastapi-app
 ```
 Link del docker hub: https://hub.docker.com/r/claudio153/fastapi-app
-##Testing con curl
+
+## Testing con curl
 ```bash
 curl http://127.0.0.1:8000/time
 ```
