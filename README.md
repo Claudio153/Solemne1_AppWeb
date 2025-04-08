@@ -13,7 +13,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 export PATH="$HOME/.local/bin:$PATH"
 source ~/.bashrc
 ```
-Luego, para instqalar las depencias necesarias, en el directorio del proyecto ejecutar:
+Luego, para instalar las depencias necesarias, en el directorio del proyecto ejecutar:
 ```bash
 poetry install
 ```
@@ -25,4 +25,9 @@ poetry run uvicorn main:app --reload
 ## Usando Docker
 ```bash
 docker run claudio153/fastapi-app
+```
+Link del docker hub: https://hub.docker.com/r/claudio153/fastapi-app
+##Testing con curl
+```bash
+curl http://127.0.0.1:8000/time
 ```
